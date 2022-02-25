@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "path": "^0.12.7"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js ",
+    "dev": "nodemon index.js localhost 3080"
+  },
+  "keywords": [],
+  "author": "Mike",
+  "license": "ISC",
+  "description": "Todo list app",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
